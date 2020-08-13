@@ -27,3 +27,31 @@
     border-color: #d7d7d7;
     border-radius: 0px;
 }
+
+<!--f1, f2, footer, ul#menu li and .f1:hover created by Nisarg Patel-->
+
+.f1 {
+    color: #000000 !important;
+    font-size: 14px !important;
+}
+
+.f2 {
+    color: grey;
+    font-size: 9px;
+}
+
+footer {
+    border-top: solid 2px;
+    border-color: black;
+}
+
+ul#menu li {
+  display:inline;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.f1:hover {
+    text-decoration: none;
+    color: grey !important;
+}
