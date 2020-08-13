@@ -1,4 +1,29 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+}
+
+.navigation{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px 0px;
+}
+
+.nav-item{
+    color: black;
+    padding: 0;
+}
+
+.nav-item:hover{
+    color: grey;
+}
+
+#active{
+    color: #793026;
+    font-weight: bold;
+}
+
+.nav-item:not(:last-child) {
+    border-right: solid 1px;
+    border-color: #d7d7d7;
+    border-radius: 0px;
 }
