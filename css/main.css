@@ -19,7 +19,6 @@
 
 #active{
     color: #793026;
-    font-weight: bold;
 }
 
 .nav-item:not(:last-child) {
