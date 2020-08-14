@@ -10,7 +10,7 @@
 
 .nav-item{
     color: black;
-    font-size: 1vw;
+    font-size: 1.5vw;
     padding: 0;
 }
 
@@ -83,7 +83,7 @@ footer {
     box-shadow: white;
 }
 .show>.btn-outline-primary.dropdown-toggle {
-    background-color:grey;
+    background-color:grey !important;
     border-color: grey;
 }
 .login_b {
