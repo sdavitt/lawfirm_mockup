@@ -58,9 +58,9 @@ footer {
 .login_reg {
     border-color: lightgrey;
 }
-.btn, .btn:hover{
+.btn, .btn:hover, .btn:active{
     font-size: 12px;
-    background-color: lightgrey;
+    background-color: lightgrey !important;
     padding: 13px 0px 13px 0px !important;
     border-color: lightgrey;
     border: 0px;
@@ -79,13 +79,10 @@ footer {
 .a {
     margin: 50px;
 }
-.btn-outline-primary:focus {
+.btn-outline-primary:focus, .btn-outline-primary:active {
     box-shadow: white;
 }
-.show>.btn-outline-primary.dropdown-toggle {
-    background-color:grey !important;
-    border-color: grey;
-}
+
 .login_b {
     color: black;
 }
