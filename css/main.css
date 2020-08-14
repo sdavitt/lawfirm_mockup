@@ -4,7 +4,8 @@
 
 .woodenbackground{
     background-image: url(../images/nza_background.jpg);
-    height: 100vh;
+    background-repeat: repeat;
+    height: 100%;
 }
 
 .paperpiece{
