@@ -1,1 +1,56 @@
 /*css page*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(/images/nza_background.jpg);
+}
+main{
+    
+    background-color:white;
+    margin-bottom:100px;
+    margin-left:210px;
+    margin-right:210px;
+}
+.rowjerry{
+
+    margin-top:25px;
+    font-size: 13px;  
+}
+.column1{
+    width:100%;
+    
+}
+img{
+    width:50%;
+    height:175px;
+    padding:15px;
+}
+section{
+    content:"";
+    display:table;
+    clear:both;
+    background-image:url(/images/nav_side.jpg);
+    padding-left:20px;
+    padding-top:20px;
+    padding-right:20px;
+    text-align:left;
+    color:white;
+    
+}    
+.leftcolumn{
+    float:left;
+}
+.rightcolumn{
+    float:right;
+}
+.columnright{
+    margin-bottom:20px;
+}
+
+@media screen and (max-width:1920px){
+    .leftcolumn, .col-sm-9{
+        flex-direction:column;
+    }
+}
