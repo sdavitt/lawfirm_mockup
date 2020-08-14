@@ -91,5 +91,6 @@ ul#menu li {
     color: black;
 }
 .login_b:hover {
-    color: darkgray
+    color: darkgray;
+    text-decoration: none;
 }
