@@ -28,11 +28,12 @@
     border-radius: 0px;
 }
 
-/*f1, f2, footer, ul#menu li and .f1:hover created by Nisarg Patel*/
+/*f1, f2, footer, #in-line and .f1:hover created by Nisarg Patel*/
 
 .f1 {
     color: #000000 !important;
     font-size: 14px !important;
+    padding: 30px !important;
 }
 
 .f2 {
@@ -45,10 +46,8 @@ footer {
     border-color: black;
 }
 
-ul#menu li {
-  display:inline;
-  padding-left: 25px;
-  padding-right: 25px;
+#in-line {
+  display: inline !important;
 }
 
 .f1:hover {
