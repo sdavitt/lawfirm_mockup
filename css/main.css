@@ -40,7 +40,47 @@
     border-radius: 0px;
 }
 
-/*f1, f2, footer, #in-line and .f1:hover created by Nisarg Patel*/
+/* css for footer - done by Nisarg */
+p.p1{
+    text-align: center;
+    font-size: .7vw;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+p.p1:before, p.p1:after{
+    background-color: #c7c7c7;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 34%;
+}
+
+p.p1:before{
+    right: 0.5em;
+    margin-left: -50%;
+
+}
+p.p1:after{
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+p.p2{
+    font-size: .7vw;
+    color: grey;
+    padding: 10px 0;
+}
+
+#before:before {
+    background-color: #ffffff;
+}
+
+#after:after {
+    background-color: #ffffff;
+}
 
 .f1 {
     color: #000000 !important;
@@ -50,7 +90,7 @@
 
 .f2 {
     color: grey;
-    font-size: .5vw;
+    font-size: .3vw;
 }
 
 footer {
@@ -65,6 +105,20 @@ footer {
 .f1:hover {
     text-decoration: none;
     color: grey !important;
+}
+
+#f3 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+}
+
+.col-md {
+    padding: 0%;
+}
+
+#f3 {
+    margin: 5px 0px 0px 0px !important;
 }
 /*---------------------------------header image - ken-----------------------------*/
 .login_reg {
