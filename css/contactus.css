@@ -1,1 +1,167 @@
 /*css page*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+
+.banner{
+
+  
+    padding: 10px;
+    color: white;
+    
+}
+
+article{
+
+    margin: 10px;
+}
+
+.topleft {
+    
+    top: 100px;
+    padding
+    
+  }
+
+  
+
+    .yea {
+        background-image: url( ../images/nav_side_sub.jpg );
+        height: 360px ;
+        width: 100% ;
+      
+        position: absolute;
+        max-width: 100%;
+        padding-right:10px;
+        transform: translate(%, 0% );
+        
+        
+        
+    }
+
+   .yea2 {
+        background-image: url( ../images/other_links_background.jpg);
+        height: 350px ;
+        width: 100% ;
+      
+        position: absolute;
+        
+        padding-right:10px;
+       
+        
+
+        
+
+    }
+
+    .img-map {
+        padding: 10px;
+    }
+
+    .contact{
+
+        width:100%
+    }
+
+    .middletext{
+
+        padding-top:20px;
+    }
+
+    .rightcolumn {
+
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .map{
+
+        width:100%;
+        position: absolute;
+        padding: 10px;
+        border: black;
+        
+       
+    }
+
+    .redlettering{
+
+        padding-top: 95px ;
+        padding-left:10px;
+        color: rgb(150, 62, 62);
+        
+    }
+
+    .blackwithnotop{
+        padding-left:10px;
+        padding-bottom:70px;
+    }
+
+    .sidemargin{
+
+        padding-right: 29;
+    }
+
+
+    .reputationmargin{
+
+       padding-left: 10px;
+    }
+
+    .centertextright{
+        transform: translate(4%, 0%);
+
+        
+    }
+
+    .middle{
+        transform: translate(4%, 0%);
+
+        
+    }
+
+
+    .topright{
+
+        position: absolute;
+        top: 1%;
+        
+        padding: 5px
+    }
+
+    body{
+
+        background-image: url(../images/nza_background.jpg);
+    }
+
+
+    .background{
+     
+    }
+
+    .anotherone{
+        background: url(../images/plain-white-background-1480544970glP.jpg);
+        vertical-align: top;
+        height: 400px;
+        width: 40px;
+        
+        
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 1600px;
+        
+      }
+
+      .centered {
+    
+        transform: translate(0%, -350%);
+      }
