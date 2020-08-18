@@ -1,1 +1,64 @@
+<<<<<<< HEAD
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+#jmain{
+background-color: white;
+margin: 0;
+}
+
+.jwcol-3{
+    margin-top: 25px;
+    margin-bottom: 75px;
+    
+}
+#a1{
+    border: black solid 1px;
+    width: 190px;
+    padding-left: 15px;
+    padding-top: 15px;
+    
+    background-size: auto;
+    
+    background-image:url(/images/nav_side_sub.jpg);
+    background-repeat: none;
+    background-size: 210%;
+    color: white;
+    margin-left: 10px;
+}
+#jimg-2{
+    border: white 1px solid;
+}
+#jwh6{
+    border-bottom: white 1px solid;
+    padding-top: 10px;
+}
+#ul1{
+    padding-left: 0px;
+    
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+.jwcol-9{
+    margin-top: 25px;
+    margin-bottom: 75px;
+    padding-right: 0px;
+
+}
+#jwar2 > article{
+    width: 800px;
+}
+#uole{
+  list-style-type: none;
+  margin: 0px;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+=======
 /*css page*/
+>>>>>>> upstream/master
